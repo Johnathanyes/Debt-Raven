@@ -6,12 +6,15 @@
 
 body {
     margin: 0;
+    background-color: rgb(32, 32, 32);
+    color: rgb(231, 231, 231);
 }
 
 nav {
 
 }
 
+/*Buttons */
 .sign-up-button {
     background-color: rgb(95, 81, 179);
     padding: 10px;
@@ -28,28 +31,50 @@ nav {
     padding: 20px 18px;
 }
 
+/*Main signup section */
 .sign-up-section {
     height: 70vh;
     font-family: Roboto;
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(34, 34, 34);
     display: flex;
-  justify-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .sign-up-section h1 {
     font-size: 70px;
-    color: #272727;
+    color: #bbbbbb;
+    margin: 30px 0px 5px 0px;
 }
 
 .sign-up-section p {
-    color: #414141;
+    color: #e6e6e6;
     font-size: 18px;
     width: 80%;
 }
 
 .sign-up-section div {
-    width: 40vw;
+    width: 45vw;
+    height: 80%;
 }
+
+.sign-up-section .line {
+    background-color: rgb(95, 81, 179);
+    width: 80px;
+    height: 10px;
+}
+
+/*Informational section */
+
+.informational-section {
+    font-family: Roboto;
+}
+
+.informational-section .Understand-Your-Spending {
+    background-color: rgb(32, 32, 32);
+}
+
+
 
 
 
